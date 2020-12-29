@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  position: relative;
+}
+
+.home__container {
+  overflow-x: hidden;
+}
+
+.home__row {
+  min-width: 100%;
+  display: flex;
+  z-index: 1;
+}
+
+.banner__image {
+  width: 1450px;
+  z-index: -1;
+  display: fixed;
+  margin-bottom: -330px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
