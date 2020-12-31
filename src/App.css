@@ -4,11 +4,25 @@
 }
 
 .app {
-  background-color: rgb(224, 231, 232);
+  background-color: rgb(234, 237, 237);
   min-height: 100vh;
 }
 
-
+.amazon__button {
+  background: #f0c14b;
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 10px;
+  color: #111;
+}
+.amazon__button:focus {
+  border: 1px solid rgb(211, 46, 46);
+  box-shadow: 1px 1px 3px rgb(202, 135, 46);
+  outline: none;
+}
 
 
 

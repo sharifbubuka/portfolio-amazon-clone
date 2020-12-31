@@ -3,18 +3,58 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 10px;
   padding: 20px;
   width: 100%;
   min-width: 100px;
   max-height: 400px;
   z-index: 1;
+  position: relative;
 }
+
+.product__info {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.product__description {
+  width: 100%;
+  max-width: 500px;
+  max-height: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product__name {
+  font-weight: 600;
+}
+
+.product__price {
+ margin-top: 5px; 
+}
+
+.product__rating {
+  margin-left: -8px;
+}
+
+.rating button .MuiIconButton-label .MuiSvgIcon-root {
+  font-size: .8em;
+}
+
 
 .product > img {
   max-height: 200px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+}
+
+.product > button {
+  width: 100px;
+  position: absolute;
+  bottom: 5px;
 }

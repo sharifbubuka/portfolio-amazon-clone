@@ -4,7 +4,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
-  position: relative;
 }
 
 .home__container {
@@ -15,10 +14,11 @@
   min-width: 100%;
   display: flex;
   z-index: 1;
+  justify-content: space-around;
 }
 
 .banner__image {
-  width: 1450px;
+  width: 1500px;
   z-index: -1;
   display: fixed;
   margin-bottom: -330px;
